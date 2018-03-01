@@ -1,0 +1,120 @@
+section{
+    margin: 0 auto;
+    width: 750px;
+}
+h1{
+    text-align: center;
+    border-top: 1px solid #594b3a;
+    border-bottom: 2px solid #594b3a;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #594b3a;
+    font-weight: normal;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+nav ol li{
+    font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   padding: 10px;
+}
+nav ol li a{
+    color: #43948e;
+}
+
+.line{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #594b3a;
+    margin-top: 50px;
+}
+#profile{
+    text-align: left;
+}
+article h4,h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: #594b3a;
+    letter-spacing: 1px;
+}
+h4 span {
+    font-family: 'Times New Roman', serif;
+    font-size: 8px;
+    font-weight: lighter;
+    
+}
+
+a{
+    color: #43948e;
+}
+blockquote{
+    background-color: #f9f2ec;
+    padding: 15px;
+    font-style: italic;
+
+}
+#quoteby{
+    text-align: right;
+}
+figure{
+    display: flex;
+    align-items: center;
+    /*float: left;*/
+}
+figure img{
+    margin-right: 20px;
+    width: 350px;
+    height: 300px;
+}
+table {
+    width: 90%;
+    margin-left: 30px;
+    padding: 20px;
+    border-collapse: collapse;
+    
+}
+
+th {
+    background-color: #594b3a;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+td {
+   border-right: 0.3px solid #43948e;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.region {
+    text-align: left;
+}
+
+.all-data {
+    text-align: right;
+}
+
+.lyngby {
+    border: 2px dashed #594b3a;
+    background-color: #43948e;
+    border-left: none;
+    border-right: none;
+}
+hr{
+    opacity: 0.5;;
+    margin-top: 50px;
+    color: #594b3a;
+}
+footer p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
